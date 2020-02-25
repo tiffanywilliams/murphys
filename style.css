@@ -1,0 +1,30 @@
+.ui.borderless.topmenu.menu {
+  box-shadow: none;
+  border-bottom: none;
+}
+
+.item {
+  margin: 0px 8px 0px 8px;
+}
+
+.grad-background {
+  background: url('http://murphyshawaii.com/media/2014/04/murphys-front.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 500px;
+}
+
+.fix {
+  margin-top: 120px;
+  float: left;
+}
+
+.text.column {
+  color: white;
+  margin-top: 100px;
+  font-size: large;
+}
+
+.footer-background {
+  background-color: #214D27;
+  color: white;
+}
