@@ -2,91 +2,87 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Murphys</title>
+  <title>Murphy's Bar and Grill - Irish Pub in Honolulu, Hawaii</title>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-  <link rel="stylesheet" href="style.css"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 </head>
 <body>
-
-<div class="ui borderless topmenu menu">
+<div class="ui menu top attached borderless">
   <div class="ui container">
-    <img class="ui image item" src="http://murphyshawaii.com/media/2014/04/murphyshawaii.png">
-    <a class="ui right item">Home</a>
-
-    <div class="ui dropdown fitted item">
-      <div class="text">About US</div>
+    <div class="ui image item left">
+      <a href="#"><img class="menuimage" src="http://murphyshawaii.com/media/2014/04/murphyshawaii.png"></a>
+    </div>
+    <a href="#" class="item right">Home</a>
+    <div class="ui dropdown item">
+      <div class="text">About Us</div>
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item">Us</div>
+        <div class="item">Getting Here / Parking</div>
+        <div class="item">Catering and Private Events</div>
+        <div class="item">Upcoming Events</div>
       </div>
     </div>
-
-    <a class="ui item">St.Patrick's Day</a>
-
-    <div class="ui dropdown fitted item">
+    <a href="#" class="item">St. Patrick's Day</a>
+    <div class="ui dropdown item">
       <div class="text">Menus</div>
       <i class="dropdown icon"></i>
       <div class="menu">
-        <div class="item">Food & Drinks</div>
+        <div class="item">Weekly Specials</div>
+        <div class="item">Lunch Menus</div>
+        <div class="item">Dinner Menus</div>
+        <div class="item">Desserts</div>
       </div>
     </div>
-
-    <a class="ui item">Bar</a>
-
-    <a class="ui item"> <i class="ui search icon"></i> </a>
-
+    <a href="#" class="item">Bar</a>
+    <a href="" class="item"><i class="search icon"></i></a>
   </div>
 </div>
 
-
-
-
-<div class="grad-background">
+<div class="ui fluid mainbackground" style="background-image: url('http://murphyshawaii.com/media/2014/04/murphys-front.jpg')">
   <div class="ui two column grid container">
     <div class="column">
-      <img class="fix" src="http://murphyshawaii.com/media/2014/04/murphyshawaiilogo.png">
+      <img src="http://murphyshawaii.com/media/2014/04/murphyshawaiilogo.png" alt="">
     </div>
-
-    <div class="ui middle aligned text column">
-      <p>A traditional downtown saloon and eatery located in the Honolulu Financial District, just one block off the waterfront, Murphy’s has been a haven for mariners, businessmen and locals since 1891.</p>
+    <div class="column homepage">
+      <p class="center">A traditional downtown saloon and eatery located in the Honolulu Financial District, just one block off the waterfront, Murphy’s has been a haven for mariners, businessmen and locals since 1891.</p>
     </div>
   </div>
-
 </div>
 
-
-
-<div class="footer-background">
+<div class="footer-bg">
   <div class="ui three column grid container">
     <div class="column">
-        <p class=" item">Lunch</p>
+      <div class="ui list">
+        <div class="item">Lunch</div>
         <hr>
-        <p>Monday - Friday: 11:00am - 2:30pm
-          <br>Saturday - Sunday: Not open for lunch</p>
-    </div>
-
-    <div class="column">
-      <p class=" item">Bar</p>
-      <hr>
-      <p>Monday - Friday from 11:00am
-      <br> Saturday - Sunday from 4:00pm</p>
+        <div class="item">Monday - Friday: 11:00am - 2:30pm</div>
+        <div class="item">Saturday - Sunday: Not open for lunch.</div>
+      </div>
     </div>
     <div class="column">
-      <p class=" item">Dinner</p>
-      <hr>
-      <p>Monday - Saturday: 5:30pm - 10:00pm
-        <br> Sunday: 5:00pm - 9:00pm</p>
+      <div class="ul list">
+        <div class="item">Bar</div>
+        <hr>
+        <div class="item">Monday - Friday from 11:00am</div>
+        <div class="item">Saturday - Sunday from 4:00pm</div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui list">
+        <div class="item">Dinner</div>
+        <hr>
+        <div class="item">Monday - Saturday: 5:30pm - 10:00pm</div>
+        <div class="item">Sunday: 5:00pm - 9:00pm</div>
+      </div>
     </div>
   </div>
 </div>
 
 <script>
-  $('.ui.dropdown')
-      .dropdown()
-  ;
+  $('.ui.dropdown').dropdown();
 </script>
 </body>
 </html>
